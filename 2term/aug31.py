@@ -67,12 +67,20 @@
 # print(pairs)
 
 
-lst=[10,11,12,20,23,30]
-lst1=[10,11,22,44,23,30]
+lst=[10,11,12,20,23,28,30]
+lst1=[10,11,22,23,30]
 z=[]
-for i in lst:
-   if i in lst1:
-       z.append(i)
-print(z,end=' ')
+i=0
+j=0
+while i<len(lst) and j<len(lst1):
+ if (lst[i]==lst1[j]):
+    z.append(lst[i])
+    i+=1
+    j+=1
+ elif lst[i]<lst1[j]:
+    i+=1
+ else :
+     j+=1
+print(z)
 
 
