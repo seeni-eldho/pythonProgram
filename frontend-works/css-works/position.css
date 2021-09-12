@@ -1,0 +1,43 @@
+.row{
+    width: 50%;
+    height: 200px;
+    background-color: deepskyblue;
+    position: relative;
+    margin-top: 5%;
+    left: 25%;
+    
+    
+}
+.fixed{
+    width: 20%;
+    height: 20%;
+    background-color: hotpink;
+    position: fixed;
+    left: 70%;
+    
+
+}
+.sticky{
+    width: 30%;
+    height: 30%;
+    background-color: lawngreen;
+    position: sticky;
+    left: 25%;
+
+}
+.col{
+    width: 22%;
+    position: absolute;
+    height: 200px;
+}
+.col-1{
+    background-color: firebrick;
+}
+.col-2{
+    background-color: fuchsia;
+    left: 23%;
+}
+.col-3{
+    background-color: goldenrod;
+    left: 46%;
+}

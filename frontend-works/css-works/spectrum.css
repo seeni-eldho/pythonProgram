@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+div{
+    height: 150px;
+    width: 10%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.r1c1{
+  background-color: blueviolet;
+}
+.r1c2{
+    background-color: brown;
+    }
+.r1c3{
+    background-color: burlywood;
+}
+.r1c4{
+    background-color: cadetblue;
+}
+.r1c5{
+    background-color: chocolate;
+}
