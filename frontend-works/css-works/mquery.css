@@ -1,0 +1,24 @@
+.row{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(168, 168, 197);
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+div a{
+    margin: 10px;
+}
+div a:hover{
+    background-color:rgba(79, 6, 55, 0.5);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.inp:focus{
+    border: 1px solid yellow;
+    /* width: 300px; */
+}

@@ -1,0 +1,29 @@
+.row{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(218, 210, 210);
+    display: flex;
+    justify-content:space-evenly;
+    border: 1px solid green;
+    align-items: center;
+}
+.col{
+    height: 300px;
+    width: 25%;
+    border: 1px solid black;
+}
+.col:nth-child(1){
+    background-color: rosybrown;
+
+}
+.col:nth-child(2){
+    background-color: rgb(97, 12, 12);
+    /* flex: 1; */
+
+}
+
+.col:nth-child(3){
+    background-color: rgb(153, 188, 143);
+
+}
+
