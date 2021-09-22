@@ -1,0 +1,22 @@
+.row{
+    width: 400%;
+    height: 50px;
+    display: flex;
+    background-color:#5e068a;
+    text-decoration: none;
+    align-items: flex-end;
+    
+}
+.col h5{
+    color: white;
+    text-decoration: none;
+    
+  
+}
+a{
+    text-decoration: none;
+}
+.col{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
